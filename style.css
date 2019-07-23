@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+  color: whitesmoke;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 72px;
+  font-family: "Tangerine", cursive;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Unica One", cursive;
+}
+
+img[src="assets/manyWatches.png"] {
+  width: 540px;
+}
+
+.watch_container {
+  background-color: #1a1818;
+  border: 2px solid #fdefa6;
+  border-radius: 13px;
+  padding: 16px;
+  margin: 15px 50px;
+  clear: left;
+}
+
+h2 {
+  font-family: "Unica One", cursive;
+  display: block;
+}
+
+footer {
+  margin: 25px;
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+img[src="assets/classicWatch.png"],
+img[src="assets/mechanicalWatch.png"],
+img[src="assets/pocketWatch.png"] {
+  float: left;
+  width: 15%;
+  height: 15%;
+  margin: 0 10px;
+}
+
+img[src="assets/mechanicalWatch.png"] {
+  width: 10%;
+  height: 10%;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  /* float: right; */
+}
